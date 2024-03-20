@@ -1,10 +1,21 @@
 android_app_import {
-        name: "OPFiles",
-        apk: "OPFiles.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: true,
-        },
-        privileged: true,
-        product_specific: true,
+    name: "OPFiles",
+    apk: "OPFiles.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: true,
+    },
+    required: [
+        "privapp-permissions-op-files",
+    ],
+    privileged: true,
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-op-files",
+    sub_dir: "permissions",
+    src: "privapp-permissions-op-files.xml",
+    filename_from_src: true,
+    product_specific: true,
 }
