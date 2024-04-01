@@ -3,8 +3,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
-    OPFiles \
-	Viper4Android
+    OPFiles
 
 # Permissions
 PRODUCT_COPY_FILES += \
