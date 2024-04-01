@@ -3,4 +3,5 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
-    OPFiles
+    OPFiles \
+    KernelSU
