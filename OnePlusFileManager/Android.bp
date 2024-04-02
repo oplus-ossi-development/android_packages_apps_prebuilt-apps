@@ -1,6 +1,7 @@
 android_app_import {
     name: "OPFiles",
     apk: "OPFiles.apk",
+    overrides: ["DocumentsUI", "FilesPrebuilt"],
     presigned: true,
     dex_preopt: {
         enabled: true,
