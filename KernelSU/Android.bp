@@ -1,9 +1,0 @@
-android_app_import {
-    name: "KernelSU",
-    apk: "KernelSU.apk",
-    presigned: true,
-    dex_preopt: {
-        enabled: true,
-    },
-    product_specific: true,
-}
